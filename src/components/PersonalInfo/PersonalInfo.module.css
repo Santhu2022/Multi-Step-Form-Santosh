@@ -1,0 +1,22 @@
+.mainContainer {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mainHeading {
+    color: var(--marine-blue);
+    font-family: 'UbuntuMedium';
+    font-size: larger;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: var(--cool-gray);
+    font-family: 'UbuntuRegular';
+    font-size: small;
+    margin: 0;
+    margin-bottom: 20px;
+}

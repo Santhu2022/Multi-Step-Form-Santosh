@@ -1,0 +1,108 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mainHeading {
+    color: var(--marine-blue);
+    font-family: 'UbuntuMedium';
+    font-size: larger;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: var(--cool-gray);
+    font-family: 'UbuntuRegular';
+    font-size: small;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.plansContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+.plan {
+    flex-grow: 1;
+    flex: 1;
+    background-color: var(--white);
+    border-radius: 6px;
+    border: 1.9px solid var(--light-gray);
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.plan:hover {
+    border: 1.9px solid var(--purplish-blue);
+}
+
+.selectedPlan {
+    border: 1.9px solid var(--purplish-blue);
+    background-color: rgb(247 241 247);
+}
+
+.planIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.planName {
+    margin: 0;
+    font-family: 'UbuntuMedium';
+    font-size: small;
+    color: var(--marine-blue);
+    margin-bottom: 5px;
+}
+
+.planPrice {
+    margin: 0;
+    color: var(--cool-gray);
+    font-family: 'UbuntuRegular';
+    font-size: x-small;
+
+}
+
+.planTypeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(206, 166, 206);
+    margin-top: 30px;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+
+.planType {
+    margin: 0;
+    color: var(--light-gray);
+    font-family: 'UbuntuBold';
+    font-size: small;
+    cursor: pointer;
+}
+
+.activePlanType {
+    color: var(--marine-blue);
+}
+
+.freeMonths {
+    margin: 0;
+    color: var(--marine-blue);
+    font-family: 'UbuntuRegular';
+    font-size: x-small;
+    margin-top: 5px;
+}

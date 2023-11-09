@@ -1,0 +1,55 @@
+.inputFieldWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.labelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputLabel {
+    color: var(--marine-blue);
+    font-family: 'UbuntuMedium';
+    font-size: small;
+    margin: 0;
+
+}
+
+.inputField {
+    height: 30px;
+    padding: 3px 10px;
+    font-family: 'UbuntuRegular';
+    font-size: small;
+    color: var(--marine-blue);
+    border: 1.5px solid var(--light-gray);
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+.inputField:hover {
+    border: 1.5px solid var(--purplish-blue);
+}
+
+.inputField:focus {
+    border: 1.5px solid var(--purplish-blue);
+}
+
+.activeField {
+    border: 1.5px solid var(--purplish-blue);
+}
+
+.errorField {
+    border: 1.5px solid var(--strawberry-red);
+}
+
+.errorMsg {
+    color: var(--strawberry-red);
+    font-family: 'UbuntuMedium';
+    font-size: small;
+    margin: 0;
+}

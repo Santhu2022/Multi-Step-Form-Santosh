@@ -1,0 +1,62 @@
+.mainContainer {
+    background-image: url('../../assets/images/bg-sidebar-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    border-radius: 8px;
+    padding: 5% 3%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.stepContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.stepCircle {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-family: 'UbuntuMedium';
+    flex-shrink: 0;
+}
+
+.activeStepCircle {
+    background-color: var(--light-blue);
+    color: var(--black);
+}
+
+.stepName {
+    color: var(--white);
+    font-size: smaller;
+    font-family: 'UbuntuBold';
+    margin: 0;
+
+}
+
+.stepNumber {
+    color: var(--cool-gray);
+    font-family: 'UbuntuMedium';
+    font-size: x-small;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.stepCircle>p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}

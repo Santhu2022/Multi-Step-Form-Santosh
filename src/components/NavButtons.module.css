@@ -1,0 +1,32 @@
+.formNavigationContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.navButton {
+    color: var(--white);
+    font-family: 'UbuntuRegular';
+    height: 35px;
+    padding: 0 10px;
+    background-color: var(--marine-blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.goBackBtn {
+    background-color: var(--white);
+    color: var(--marine-blue);
+    font-family: 'UbuntuBold';
+}
+
+.nextStepBtn {
+    margin-left: auto;
+}
+
+.confirmBtn {
+    background-color: var(--purplish-blue);
+}

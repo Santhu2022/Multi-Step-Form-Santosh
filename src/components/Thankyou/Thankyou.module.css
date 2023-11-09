@@ -1,0 +1,30 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.thankYouIcon {
+    width: 70px;
+    height: 70px;
+}
+
+.thankyouHeading {
+    color: var(--marine-blue);
+    font-family: 'UbuntuBold';
+    font-size: x-larger;
+    margin: 0;
+}
+
+.thankyouDescription {
+    color: var(--cool-gray);
+    font-family: 'UbuntuRegular';
+    font-size: smaller;
+    line-height: 18px;
+    margin: 0;
+
+}

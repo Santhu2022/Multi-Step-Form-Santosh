@@ -1,0 +1,89 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mainHeading {
+    color: var(--marine-blue);
+    font-family: 'UbuntuMedium';
+    font-size: larger;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: var(--cool-gray);
+    font-family: 'UbuntuRegular';
+    font-size: small;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.addOnsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid red; */
+
+
+}
+
+.addOnWrapper {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    padding: 0;
+}
+
+.addOnItem {
+    border-radius: 6px;
+    border: 1.9px solid var(--light-gray);
+    cursor: pointer;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+}
+
+.selectedAddon {
+    background-color: hsl(243deg 100% 95.85%);
+    border: 1.9px solid var(--purplish-blue);
+}
+
+.addOnItem:hover {
+    border: 1.9px solid var(--purplish-blue);
+}
+
+.checkBox {
+    accent-color: var(--purplish-blue);
+}
+
+.addonName {
+    color: var(--marine-blue);
+    font-family: 'UbuntuBold';
+    font-size: small;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+
+.addonDescription {
+    color: var(--cool-gray);
+    font-family: 'UbuntuRegular';
+    font-size: x-small;
+    margin: 0;
+}
+
+.addonPrice {
+    color: var(--purplish-blue);
+    font-family: 'UbuntuRegular';
+    font-size: 12px;
+    margin: 0;
+    margin-left: auto;
+}
