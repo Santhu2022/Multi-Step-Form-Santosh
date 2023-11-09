@@ -79,19 +79,21 @@ const Form = () => {
 
 
     return (
-        <div className={classes.mainContainer}>
-            <div className={classes.subContainer}>
-                <SideBar activeStepId={activeStepId} />
-                <div className={classes.formContainer}>
-                    {renderForm()}
-                    {
-                        activeStepId > 1 && activeStepId < 5 &&
-                        <NavButtons
-                            activeStepId={activeStepId}
-                            prevStep={prevStep}
-                            nextStep={nextStep}
-                        />
-                    }
+        <div className={classes.rootContainer}>
+            <div className={classes.mainContainer}>
+                <div className={classes.subContainer}>
+                    <SideBar activeStepId={activeStepId} />
+                    <div className={classes.formContainer}>
+                        {renderForm()}
+                        {
+                            activeStepId > 1 && activeStepId < 5 &&
+                            <NavButtons
+                                activeStepId={activeStepId}
+                                prevStep={prevStep}
+                                nextStep={nextStep}
+                            />
+                        }
+                    </div>
                 </div>
             </div>
         </div>
